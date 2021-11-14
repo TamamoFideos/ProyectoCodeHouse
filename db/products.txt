@@ -1,0 +1,92 @@
+[
+  {
+    "nombre": "Galletas",
+    "descripcion": "Son galletas de chocolate",
+    "foto": "https://cdn-icons-png.flaticon.com/512/164/164659.png",
+    "precio": 12.4,
+    "stock": 60,
+    "timestamp": 1636335425710,
+    "codigo": "proGalletas xmqo1i",
+    "id": 1
+  },
+  {
+    "nombre": "Galletas",
+    "descripcion": "Son galletas de chocolate",
+    "foto": "https://cdn-icons-png.flaticon.com/512/164/164659.png",
+    "precio": 12.4,
+    "stock": 60,
+    "timestamp": 1636335461992,
+    "codigo": "proGalletas 7oozu",
+    "id": 2
+  },
+  {
+    "nombre": "Pan",
+    "descripcion": "Son panes de chocolate",
+    "foto": "https://cdn-icons-png.flaticon.com/512/164/164659.png",
+    "precio": 12.4,
+    "stock": 60,
+    "timestamp": 1636336112894,
+    "codigo": "proPan ypgpm",
+    "id": 4
+  },
+  {
+    "nombre": "Frutas",
+    "descripcion": "De todos los colores",
+    "foto": "https://cdn-icons-png.flaticon.com/512/164/164659.png",
+    "precio": 12.4,
+    "stock": 60,
+    "timestamp": 1636336122370,
+    "codigo": "proFrutas uwrush",
+    "id": 5
+  },
+  {
+    "nombre": "Frutas",
+    "descripcion": "De todos los colores",
+    "foto": "https://cdn-icons-png.flaticon.com/512/164/164659.png",
+    "precio": 12.4,
+    "stock": 60,
+    "timestamp": 1636337640532,
+    "codigo": "proFrutas fm653k",
+    "id": 6
+  },
+  {
+    "nombre": "Frutas",
+    "descripcion": "De todos los colores",
+    "foto": "https://cdn-icons-png.flaticon.com/512/164/164659.png",
+    "precio": 12.4,
+    "stock": 60,
+    "timestamp": 1636337650198,
+    "codigo": "proFrutas ex7qi",
+    "id": 7
+  },
+  {
+    "nombre": "Frutas",
+    "descripcion": "De todos los colores",
+    "foto": "https://cdn-icons-png.flaticon.com/512/164/164659.png",
+    "precio": 12.4,
+    "stock": 60,
+    "timestamp": 1636337669842,
+    "codigo": "proFrutas olg31",
+    "id": 8
+  },
+  {
+    "nombre": "Frutas",
+    "descripcion": "De todos los colores",
+    "foto": "https://cdn-icons-png.flaticon.com/512/164/164659.png",
+    "precio": 12.4,
+    "stock": 60,
+    "timestamp": 1636337875997,
+    "codigo": "proFrutas 9qm25",
+    "id": 9
+  },
+  {
+    "nombre": "Frutas",
+    "descripcion": "De todos los colores",
+    "foto": "https://cdn-icons-png.flaticon.com/512/164/164659.png",
+    "precio": 12.4,
+    "stock": 60,
+    "timestamp": 1636337929103,
+    "codigo": "proFrutas itk7j",
+    "id": 10
+  }
+]
