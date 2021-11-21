@@ -47,6 +47,7 @@ class ContainerProduct {
         }
         products[index] = product;
         products[index].id = id;
+        products[index].timestamp = Date.now();
         await fs.promises.writeFile(this.path, JSON.stringify(products, null, 2));
         return product;
     }
@@ -57,7 +58,7 @@ class ContainerProduct {
         if(!deleteProduct){
             return null;
         }
-        const newProducts = products.filter( producto => producto.id !== deleteProduct.id );
+        const newProducts = products.filter( producto => producto.id != deleteProduct.id );
         await fs.promises.writeFile(this.path, JSON.stringify(newProducts, null, 2));
         return deleteProduct;
     }

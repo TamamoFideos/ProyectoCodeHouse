@@ -1,4 +1,5 @@
 const express = require('express');
+const {request} = require("express");
 require('dotenv').config();
 class Server {
     constructor() {
@@ -14,6 +15,14 @@ class Server {
     middlewares(){
         this.app.use(express.json());
         this.app.use(express.urlencoded({ extended: true }))
+        this.app.use( function (req, res) {
+            return res.json({
+                error : -2,
+                descripcion: `Ruta ${req.path} y ${req.method} no implementada`,
+
+            })
+        });
+
     }
 
     routes (){

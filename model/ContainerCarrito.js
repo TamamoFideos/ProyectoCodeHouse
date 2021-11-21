@@ -53,7 +53,7 @@ class ContainerCarrito {
             return null;
         }
         cart.products.push(product);
-        const newCarts = carts.filter( producto => producto.id !== idCart);
+        const newCarts = carts.filter( producto => producto.id != idCart);
         newCarts.push(cart);
         await fs.promises.writeFile(this.path, JSON.stringify(newCarts, null, 2));
         return cart;
@@ -74,7 +74,7 @@ class ContainerCarrito {
         if(!deleteProduct){
             return null;
         }
-        const newCarts = carts.filter( c => c.id !== idCart);
+        const newCarts = carts.filter( c => c.id != idCart);
         console.log(newCarts);
         const newProducts = cart.products.filter( producto => producto.id !== deleteProduct.id);
         cart.products = newProducts;
